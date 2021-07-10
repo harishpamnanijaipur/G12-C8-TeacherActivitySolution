@@ -109,10 +109,7 @@ while True:
     enemy.y+=evly[i]
     #Move enemy to center once hit the player
     if enemy.colliderect(player):
-        '''for enemy in ______:
-         enemy.x=______
-         enemy.y=_____
-        '''      
+       
         over=True  
         player_image=enemy_image
     
